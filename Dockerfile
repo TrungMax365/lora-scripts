@@ -6,6 +6,8 @@ ENV TZ=Asia/Shanghai
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone && apt update && apt install python3-tk -y
 
 RUN mkdir /app
+RUN mkdir -p config/autosave logs
+RUN chmod -R 777 config/autosave logs
 
 WORKDIR /app
 RUN git clone --recurse-submodules https://github.com/Akegarasu/lora-scripts
