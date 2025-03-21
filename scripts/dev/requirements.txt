@@ -11,6 +11,8 @@ prodigyopt==1.0
 lion-pytorch==0.0.6
 schedulefree==1.4
 safetensors==0.4.4
+pydantic==2.0
+pytorch==2.4.0
 # gradio==3.16.2
 altair==4.2.2
 easygui==0.98.3
