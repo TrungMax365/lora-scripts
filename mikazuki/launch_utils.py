@@ -280,7 +280,7 @@ def prepare_environment(disable_auto_mirror: bool = True):
 
     prepare_submodules()
 
-    check_dirs(["config/autosave", "logs"])
+    check_dirs(["/tmp/config/autosave", "/tmp/logs"])
 
     # if not check_run("mikazuki/scripts/torch_check.py"):
     #     sys.exit(1)
