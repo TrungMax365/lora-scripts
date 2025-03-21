@@ -13,7 +13,7 @@ schedulefree==1.4
 safetensors==0.4.4
 prodigy-plus-schedule-free
 protobuf==3.20.2
-pydantic==2.0.2
+pydantic==1.10.19
 torch==2.4.0
 # gradio==3.16.2
 altair==4.2.2
