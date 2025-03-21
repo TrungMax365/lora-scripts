@@ -13,6 +13,9 @@ schedulefree==1.4
 tensorboard==2.10.1
 safetensors==0.4.4
 prodigy-plus-schedule-free
+protobuf==3.20.2
+pydantic
+torch
 # gradio==3.16.2
 altair==4.2.2
 easygui==0.98.3
