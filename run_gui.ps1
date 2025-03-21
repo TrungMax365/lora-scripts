@@ -14,4 +14,4 @@ else {
     Write-Host -ForegroundColor Blue "No virtual environment found, using system python..."
 }
 
-python gui.py
+sudo python gui.py
