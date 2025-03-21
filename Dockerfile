@@ -18,4 +18,4 @@ RUN pip install -r requirements.txt
 
 WORKDIR /app/lora-scripts
 
-CMD ["python", "gui.py", "--listen"]
+CMD ["sudo", "python", "gui.py", "--listen"]
